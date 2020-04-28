@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest src/ --testTimeout=7000",
-    "test:watch": "jest --watch src/ --testTimeout=7000",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch --verbose",
     "start": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },

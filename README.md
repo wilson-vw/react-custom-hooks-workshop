@@ -3,6 +3,9 @@
 ## What is a react hook?
 React Hooks are functions that let us hook into the React state and lifecycle features from function components.
 
+## Why use them?
+From the [React Documentation](https://reactjs.org/docs/react-component.html): "We strongly recommend against creating your own base component classes. In React components, code reuse is primarily achieved through composition rather than inheritance."
+
 ## Contents
 - Collapsable - an exercise that allow us to understand how can useBoolean be applied
 - Counter - an exercise to help us consolidate the use of useNumber and useEffect
