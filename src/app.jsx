@@ -13,10 +13,13 @@ const App = () => <>
         Hey... You are doing it!
     </Collapsable>
 
+    <br /><hr />
     <Counter initialValue={10} />
 
+    <br /><hr />
     <LoginForm onSubmit={data => console.log(data)} />
 
+    <br /><hr />
     <Timer />
 
     {/* <Elevator speed={1000}/> */}

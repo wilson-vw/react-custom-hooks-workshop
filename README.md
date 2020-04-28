@@ -16,3 +16,6 @@ From the [React Documentation](https://reactjs.org/docs/react-component.html): "
 ... if there is time
 - Window size - how to avoid property drilling with context providers and useContext hook
 
+## References
+- How to test custom react hooks with [React Testing Library](https://kentcdodds.com/blog/how-to-test-custom-react-hooks)
+- If you dont't want to implement some of the custom hooks, check [React Hanger](https://github.com/kitze/react-hanger)

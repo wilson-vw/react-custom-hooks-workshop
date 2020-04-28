@@ -25,7 +25,7 @@ it("decrement the value when pressing -", () => {
 })
 
 it("changes the value by the amount specified", () => {
-    render(<Counter initialValue={1} step={1000}/>)
+    render(<Counter initialValue={0} step={1000}/>)
 
     expect(screen.getByText("+")).toBeInTheDocument()
     expect(screen.getByText(/current value is: 0/i)).toBeInTheDocument()
